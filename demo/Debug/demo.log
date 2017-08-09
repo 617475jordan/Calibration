@@ -1,0 +1,17 @@
+﻿生成启动时间为 2017/8/9 21:57:40。
+     1>项目“C:\Users\NI\Desktop\demo\demo\demo.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\Programs\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt calibration.cpp
+         calibration.cpp
+     1>c:\users\ni\desktop\demo\demo\calibration.cpp(30): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\ni\desktop\demo\demo\calibration.cpp(227): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>c:\users\ni\desktop\demo\demo\calibration.cpp(266): warning C4715: “calibration::calibrationRemap”: 不是所有的控件路径都返回值
+       Link:
+         F:\Programs\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\NI\Desktop\demo\Debug\demo.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\NI\Desktop\demo\Debug\demo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\NI\Desktop\demo\Debug\demo.lib" /MACHINE:X86 Debug\calibration.obj
+         Debug\demo.obj
+         demo.vcxproj -> C:\Users\NI\Desktop\demo\Debug\demo.exe
+     1>已完成生成项目“C:\Users\NI\Desktop\demo\demo\demo.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.48
